@@ -26,8 +26,8 @@ export const checkWithTypeGuard = (
   invalidTypeCallback?: TypeCheckCallback,
   validTypeCallback?: TypeCheckCallback,
   mapInsteadOfCheck = false
-) => (
-  target: Record<string, unknown>,
+) => <Target>(
+  target: Target,
   propertyKey: string,
   descriptor: PropertyDescriptor
 ): PropertyDescriptor => {
