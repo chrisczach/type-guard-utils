@@ -1,4 +1,4 @@
-import { TypeChecker, TypeCheckCallback } from "../types.d";
+import { TypeChecker, TypeCheckCallback } from "../types";
 
 export const handleTypeGuardValidation = <T>(
   typeChecker: TypeChecker,

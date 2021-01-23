@@ -1,7 +1,7 @@
 import { MonoTypeOperatorFunction } from "rxjs";
 import { map, tap } from "rxjs/operators";
 import { handleTypeGuardValidation } from "../helpers";
-import { TypeChecker, TypeCheckCallback } from "../types.d";
+import { TypeChecker, TypeCheckCallback } from "../types";
 
 /**
  * Mostly for internal use but exposing incase anyone wants to do anything other than the predefined operators.

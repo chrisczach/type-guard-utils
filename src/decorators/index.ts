@@ -1,7 +1,7 @@
 import { Observable } from "rxjs";
-import { TypeChecker, TypeCheckCallback } from "../types.d";
 import { handleTypeGuardValidation } from "../helpers";
 import { typeGuardMapOperator, typeGuardCheckOperator } from "../operators";
+import { TypeChecker, TypeCheckCallback } from "../types";
 
 /**
  * A method decorator to check return type.
