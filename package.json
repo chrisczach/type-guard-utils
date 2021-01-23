@@ -1,6 +1,6 @@
 {
   "name": "type-guard-utils",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Decorators, rxjs operators, and utility functions for doing runtime checks on returned types against type guard.",
   "main": "dist/index.js",
   "files": [
