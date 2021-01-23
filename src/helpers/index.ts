@@ -1,1 +1,1 @@
-export * from './handle-type-guard-validation';
+export * from "./handle-type-guard-validation";
