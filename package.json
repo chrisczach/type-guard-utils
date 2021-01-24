@@ -1,6 +1,6 @@
 {
   "name": "type-guard-utils",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Decorators, rxjs operators, and utility functions for doing runtime checks on returned types against type guard.",
   "main": "dist/index.js",
   "files": [
@@ -37,7 +37,16 @@
     "type": "git",
     "url": "git+https://github.com/chrisczach/type-guard-utils"
   },
-  "keywords": ["typescript", "type guards", "typescript utilities", "runtime type checks", "rxjs type checks", "http validation", "data validation", "api types"],
+  "keywords": [
+    "typescript",
+    "type guards",
+    "typescript utilities",
+    "runtime type checks",
+    "rxjs type checks",
+    "http validation",
+    "data validation",
+    "api types"
+  ],
   "jest": {
     "testEnvironment": "node",
     "testPathIgnorePatterns": [

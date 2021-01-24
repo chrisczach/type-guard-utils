@@ -4,7 +4,7 @@ import { typeGuardMapOperator, typeGuardCheckOperator } from "./operators";
 
 export {
   /** validator factory */
-  validatorFactory as validatorFacotory,
+  validatorFactory,
   /** rxjs operators */
   typeGuardMapOperator,
   typeGuardCheckOperator,
