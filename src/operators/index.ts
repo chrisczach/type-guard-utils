@@ -1,6 +1,6 @@
 import { MonoTypeOperatorFunction } from "rxjs";
 import { map, tap } from "rxjs/operators";
-import { handleTypeGuardValidation } from "../helpers";
+import { validatorFactory } from "../helpers";
 import { TypeChecker, TypeCheckCallback } from "../types";
 
 /**
@@ -20,7 +20,7 @@ export const typeGuardOperatorFactory = <
   validTypeCallback?: TypeCheckCallback
 ): MonoTypeOperatorFunction<T> =>
   operator(
-    handleTypeGuardValidation<T>(
+    validatorFactory<T>(
       typeChecker,
       expectArray,
       invalidTypeCallback,

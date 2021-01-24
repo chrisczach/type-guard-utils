@@ -37,7 +37,7 @@
     "type": "git",
     "url": "git+https://github.com/chrisczach/type-guard-utils"
   },
-  "keywords": [],
+  "keywords": ["typescript", "type guards", "typescript utilities", "runtime type checks", "rxjs type checks", "http validation", "data validation", "api types"],
   "jest": {
     "testEnvironment": "node",
     "testPathIgnorePatterns": [

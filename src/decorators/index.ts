@@ -1,5 +1,5 @@
 import { Observable } from "rxjs";
-import { handleTypeGuardValidation } from "../helpers";
+import { validatorFactory } from "../helpers";
 import { typeGuardMapOperator, typeGuardCheckOperator } from "../operators";
 import { TypeChecker, TypeCheckCallback } from "../types";
 
@@ -31,7 +31,7 @@ export const checkWithTypeGuard = (
   propertyKey: string,
   descriptor: PropertyDescriptor
 ): PropertyDescriptor => {
-  const checkValue = handleTypeGuardValidation(
+  const checkValue = validatorFactory(
     typeChecker,
     expectArray,
     invalidTypeCallback,
